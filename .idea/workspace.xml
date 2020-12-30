@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a33d5d00-bf39-4538-ac08-1b6283f1f495" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lPmq9Phcbu72NAYTzTfozeV2TT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newsboard" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\poligon\htdocs\internetShop\www\js" />
+      <recent name="C:\poligon\htdocs\internetShop\www\images\products" />
+      <recent name="C:\poligon\htdocs\internetShop\www\templates\default" />
+      <recent name="C:\poligon\htdocs\internetShop\library" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\poligon\htdocs\internetShop\tmp" />
+      <recent name="C:\poligon\htdocs\internetShop\www\templates\default\css" />
+      <recent name="C:\poligon\htdocs\internetShop\tmp\smarty" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a33d5d00-bf39-4538-ac08-1b6283f1f495" name="Default Changelist" comment="" />
+      <created>1607507288890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607507288890</updated>
+      <workItem from="1607507289971" duration="5411000" />
+      <workItem from="1607572184275" duration="611000" />
+      <workItem from="1607577212864" duration="32094000" />
+      <workItem from="1607920161307" duration="15125000" />
+      <workItem from="1608093922290" duration="4923000" />
+      <workItem from="1608102629958" duration="46703000" />
+      <workItem from="1608529444839" duration="875000" />
+      <workItem from="1608538303611" duration="87000" />
+      <workItem from="1608623837354" duration="6322000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
