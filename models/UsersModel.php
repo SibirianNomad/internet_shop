@@ -100,19 +100,29 @@
  * @param $curPwd
  * Изменение данных пользователя
  */
-    function updateUserData($dbh,$email,$name,$phone,$address,$pwd1,$pwd2,$curPwd){
+    function updateUserData($dbh,$name,$phone,$address,$pwd1,$pwd2,$curPwd){
+
         $pwd1=trim($pwd1);
         $pwd2=trim($pwd2);
+        $email=$_SESSION['user']['email'];
 
         $newPwd=null;
-        if($pwd1 && ($pwd1==$pwd2)){
-            $newPwd=md5($pwd1);
+
+        if($pwd1){
+            if($pwd1==$pwd2){
+                $newPwd=md5($pwd1);
+            }else{
+                return false;
+            }
         }
-        $sql='UPDATE users SET ';
+        $sql="UPDATE users SET ";
         if($newPwd){
-            $sql.=" pwd=$newPwd, ";
+            $sql.=" pwd='$newPwd', ";
         }
-        $sql.="name=$name, phone=$phone, address=$address, WHERE email=$email AND pwd=$curPwd LIMIT 1";
+        $sql.="name='$name', phone='$phone', address='$address' WHERE email='$email' AND pwd='$curPwd'";
+
         $rs=$dbh->query($sql);
+
+
         return $rs;
     }

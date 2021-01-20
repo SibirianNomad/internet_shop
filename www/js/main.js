@@ -132,9 +132,10 @@ function registerNewUser(){
     function updateUserData(){
         var name=$('#newName').val();
         var phone=$('#newPhone').val();
-        var pwd1=$('#newPwd1s').val();
+        var pwd1=$('#newPwd1').val();
         var pwd2=$('#newPwd2').val();
         var curPwd=$('#curPwd').val();
+        var address=$('#newAddress').val();
         $.ajax({
             type:'POST',
             async:false,
@@ -145,10 +146,16 @@ function registerNewUser(){
                 phone:phone,
                 pwd1:pwd1,
                 pwd2:pwd2,
-                curPwd:curPwd
+                curPwd:curPwd,
+                address:address
             },
-            success:function () {
-
+            success:function (data) {
+                if(data['success']){
+                    $('#userLink').html(data['name']);
+                    alert(data['message']);
+                }else{
+                    alert(data['message']);
+                }
             }
         });
     }
